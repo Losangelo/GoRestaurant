@@ -24,6 +24,7 @@ export const Container = styled.div`
           display: flex;
           flex-direction: row;
           align-items: center;
+          transition: color 0.2s;
 
           .text {
             padding: 16px 24px;
@@ -35,6 +36,10 @@ export const Container = styled.div`
             background: #41c900;
             border-radius: 0 8px 8px 0;
             margin: 0 auto;
+
+            &:hover {
+              color: crimson;
+            }
           }
         }
       }
